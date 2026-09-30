@@ -1,0 +1,32 @@
+# Dependencies (NEVER commit these)
+node_modules/
+package-lock.json
+
+# Environment Secrets & API Keys
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build Outputs
+dist/
+build/
+.next/
+out/
+
+# Server Uploaded & Processed Files
+server/uploads/
+uploads/
+*.pdf
+
+# Diagnostic / One-off Local Test Scripts
+test-embedding.js
+server/test-embedding.js
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
